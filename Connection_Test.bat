@@ -13,12 +13,12 @@ if not errorlevel 1 (goto Succes) ELSE goto Fail
 :Succes
 color 0a
 echo Connection : OKAY
-goto ende
+goto End
 
 :fail
 color 0c
 echo Connection : ERROR
-:ende
+:End
 echo/
 echo/
 timeout 2>nul
